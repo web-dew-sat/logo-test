@@ -31,6 +31,12 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/** Partners **/
+
+.partners {
+  background: #fafafc;
+}
 .partners__title {
   font-family: "ProximaNova Bold";
   font-weight: bold;
