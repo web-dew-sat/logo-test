@@ -61,6 +61,7 @@ a {
   align-items: center;
   justify-content: center;
   height: 200px;
+  padding: 0 20px;
 }
 .partners__item:hover {
   transition: all 0.3s ease;
