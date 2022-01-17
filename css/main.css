@@ -87,6 +87,12 @@ a {
     filter: none;
     transform: scale(1.1);
 }
+@keyframes transformation {
+    from { filter: grayscale(100%);
+    transform: none;}
+    to {filter: none;
+    transform: scale(1.1);}
+}
 /*** RESPONSIVE ***/
 
 /* Large: 992px - 1199px */
@@ -100,12 +106,11 @@ a {
   }
   .partners__item {
     filter: none;
+    transform: scale(1.1);
 }
   .partners__item:hover {
       filter: none;
-  }
-  .partners__item img {
-    transform: scale(1.1);
+      transform: scale(1.1);
   }
 }
 
@@ -114,6 +119,9 @@ a {
 @media (max-width: 991px) {
   .container {
     max-width: 720px;
+  }
+  .partners__item {
+      animation: transformation 2s ease-in-out;
   }
 }
 /* Small: 576px - 767px */
