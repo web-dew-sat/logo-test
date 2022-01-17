@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "ProximaNova Bold";
+  src: url("../fonts/proxima-nova-bold.eot");
+  src: url("../fonts/proxima-nova-bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/proxima-nova-bold.woff2") format("woff2"),
+    url("../fonts/proxima-nova-bold.woff") format("woff"),
+    url("../fonts/proxima-nova-bold.ttf") format("truetype"),
+    url("../fonts/proxima-nova-bold.svg#svgFontName") format("svg");
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.partners__title {
+  font-family: "ProximaNova Bold";
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.25em;
+  margin: 0 0 50px;
+  display: block;
+}
+.partners__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.partners__item {
+  width: 20%;
+  height: 100%;
+  transition: all 0.3s ease;
+  filter: grayscale(100%);
+}
+.partners__item:hover {
+  transition: all 0.3s ease;
+  filter: none;
+  transform: scale(1.1);
+}
+/* .partners__item img {
+  filter: grayscale(100%);
+} */
+/* .partners__item img:hover {
+  filter: none;
+} */
